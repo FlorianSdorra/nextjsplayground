@@ -25,6 +25,7 @@ export default function EditInvoiceForm({
         updateInvoiceWithId,
         initialState
     );
+    console.log(state);
     return (
         <form action={formAction}>
             <div className="rounded-md bg-gray-50 p-4 md:p-6">
